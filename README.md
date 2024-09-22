@@ -2,6 +2,6 @@
 # Documentación del Proyecto
 ## Unidad 3
 
-Estudiante:  
-Id:  
+Estudiante: Sofía Lezcano Arenas
+Id: 000164884
 ---

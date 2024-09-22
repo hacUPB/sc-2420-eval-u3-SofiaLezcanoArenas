@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Mago.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:Mago.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Arma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:Arma.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\arma.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:arma.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Guerrero.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:Guerrero.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\guerrero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:guerrero.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\mago.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:mago.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Personaje.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:Personaje.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\personaje.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:personaje.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Equipo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:Equipo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\equipo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:equipo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F980D670-8036-437C-B16C-9DD8C88D2F67}|Ejemplo1.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "equipo.h",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\equipo.h",
+              "RelativeDocumentMoniker": "equipo.h",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\equipo.h",
+              "RelativeToolTip": "equipo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T23:33:08.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Equipo.c",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Equipo.c",
+              "RelativeDocumentMoniker": "Equipo.c",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Equipo.c",
+              "RelativeToolTip": "Equipo.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T23:33:21.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "personaje.h",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\personaje.h",
+              "RelativeDocumentMoniker": "personaje.h",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\personaje.h",
+              "RelativeToolTip": "personaje.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T22:19:50.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Personaje.c",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Personaje.c",
+              "RelativeDocumentMoniker": "Personaje.c",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Personaje.c",
+              "RelativeToolTip": "Personaje.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T22:19:50.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mago.h",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\mago.h",
+              "RelativeDocumentMoniker": "mago.h",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\mago.h",
+              "RelativeToolTip": "mago.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T22:19:50.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mago.c",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Mago.c",
+              "RelativeDocumentMoniker": "Mago.c",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Mago.c",
+              "RelativeToolTip": "Mago.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T22:19:50.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "guerrero.h",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\guerrero.h",
+              "RelativeDocumentMoniker": "guerrero.h",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\guerrero.h",
+              "RelativeToolTip": "guerrero.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T22:19:50.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guerrero.c",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Guerrero.c",
+              "RelativeDocumentMoniker": "Guerrero.c",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Guerrero.c",
+              "RelativeToolTip": "Guerrero.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T22:19:50.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "arma.h",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\arma.h",
+              "RelativeDocumentMoniker": "arma.h",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\arma.h",
+              "RelativeToolTip": "arma.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T22:19:50.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Arma.c",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Arma.c",
+              "RelativeDocumentMoniker": "Arma.c",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Arma.c",
+              "RelativeToolTip": "Arma.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T22:19:50.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "C:\\Users\\sofia\\Documents\\Repositorios\\sc-2420-eval-u3-SofiaLezcanoArenas\\PrincipiosPOO\\Actividades\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-22T22:19:50.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
