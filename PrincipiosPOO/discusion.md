@@ -12,4 +12,4 @@
    - Revisar características compartidas por las diferentes clases y a partir de ello crear una superclase para que las demás hereden su estructura.
 
 3. **Deja tus conclusiones luego de esta actividad. ¿Qué aprendiste, qué sabías, pero pudiste profundizar? ¿Cuáles son los temas que aún te generan dudas?**
-   **Respuesta:** Es importante entender los cuatro principios fundamentales de POO para poder realizar el refactoring de un código para este estilo.
+   **Respuesta:** Si bien es importante entender los cuatro principios fundamentales de POO, aprender ciertos detalles de sintaxis es clave para poder llevar a cabo el refactoring de un código a POO.
