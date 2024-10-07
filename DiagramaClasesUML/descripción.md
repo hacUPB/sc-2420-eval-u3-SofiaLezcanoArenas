@@ -6,14 +6,14 @@ Lo que pienso implementar para agregar mayor dificultad al juego son objetos que
 ## Diagrama de casos de uso
 Para crear el diagrama de clases UML, primero decidí hacer un diagrama de casos de uso para esclarecer mejor el comportamiento del juego. Desde que vi el curso de POO, me ha sido de gran ayuda hacer este paso extra.
 
-![casos_de_uso]()
+![casos_de_uso](https://github.com/hacUPB/sc-2420-eval-u3-SofiaLezcanoArenas/blob/main/DiagramaClasesUML/pista%20casos%20uso.png)
 
 Cabe aclarar que la línea azul la hice así y no que fuera un solo módulo saliendo hacia los actores que la necesitan, porque no estaba segura de si realmente podría generalizar tanto la detección de colisiones o no.
 
 Aquí se observan algunas de las futuras clases del juego, que serían Cubito, Pista, Chocolate y Meta, además de algunos de sus métodos.
 
 ## Descripción diagrama de clases UML
-![clases]()
+![clases](https://github.com/hacUPB/sc-2420-eval-u3-SofiaLezcanoArenas/blob/main/DiagramaClasesUML/planta%20clases.png)
 
 Tomando en cuenta la guía del profesor, añadí dos clases, Game y Entidad. Al principio no tenía claro como aplicar la herencia, pero encontré algunas características y comportamientos que podían generalizarse para poder reutilizar código, como la detección de colisiones, que por supuesto variará un poco para las clases que la usan, pero que en esencia, se utiliza un condicional, y el ser una entidad, pues ambos objetos serán cuadrados, por lo que comparten características como posición y comportamientos como el dibujar el elemento u obtener la información de sus variables que son privadas.
 
