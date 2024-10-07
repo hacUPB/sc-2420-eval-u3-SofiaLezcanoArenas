@@ -1,0 +1,1 @@
+//prototipos de funciones y declaración de variables van en el .h
