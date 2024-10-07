@@ -6,7 +6,7 @@ typedef struct Personaje { //estructura que contiene atributos y métodos del per
     int vida;
     int nivel;
     void (*mostrar_estado)(const struct Personaje* this);
-    //void(*atacar)(const struct Personaje* this);
+    void(*atacar)(const struct Personaje* this);
 } Personaje;
 
 Personaje* Personaje_crear(const char* nombre, int vida, int nivel); //métdodo constructor que se llama. El puntero usa una función para reservar un espacio en la memoria

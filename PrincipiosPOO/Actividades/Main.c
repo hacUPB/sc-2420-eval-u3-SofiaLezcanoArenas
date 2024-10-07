@@ -15,5 +15,6 @@ int main(void) //creo instancias y utilizo instancias
 	Mago* Mago1;
 
 	Mago1 = Mago_crear("Archivald", 5, 10, 13, 20, 18);
+	atacar(Mago1);
 	//Mago_destruir(Mago1);
 }

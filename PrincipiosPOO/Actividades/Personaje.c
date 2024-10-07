@@ -7,9 +7,9 @@ static void mostrar_estado_impl(const Personaje* this) {
     printf("Personaje: %s | Vida: %d | Nivel: %d\\n", this->nombre, this->vida, this->nivel);
 }
 
-//static void atacar(const Personaje* this) {
-//    printf("El personaje está atacando");
-//}
+ void atacar(const Personaje* this) {
+    printf("El personaje está atacando");
+}
 
 Personaje* Personaje_crear(const char* nombre, int vida, int nivel) { // es una función que recibe tres parámetros (atributos) //crea un punterp
     Personaje* nuevo_personaje = (Personaje*)malloc(sizeof(Personaje)); //reserva cierta cantidad de bites y la guarda en la dirección. Crea las variables de forma dinámica

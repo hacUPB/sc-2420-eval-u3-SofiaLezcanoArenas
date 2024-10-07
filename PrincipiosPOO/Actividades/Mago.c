@@ -8,10 +8,10 @@ static void mostrar_estado_impl(const Personaje* this) {
     printf("Mago: %s | Vida: %d | Nivel: %d | Fuerza: %d | Mana %d | | Sabiduria: %d |\\n", this->nombre, this->vida, this->nivel, mago->fuerza, mago->mana, mago->sabiduria);
 }
 
-//static void atacar(const Personaje* this) {
-//    Mago* mago = (Mago*)this;
-//    printf("El mago está lanzando un hechizo");
-//}
+ void atacar_mago(const Personaje* this) { //tienen que tener nombres diferentes para cada versión de ataque
+    Mago* mago = (Mago*)this;
+    printf("El mago está lanzando un hechizo");
+}
 //char[30] get_ataque(void) {
 //    mostrar_estado_impl(const Personaje* this);
 //}
