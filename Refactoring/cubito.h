@@ -5,12 +5,18 @@
 
 typedef struct Cubito {
 	Entidad base; // puede tener cualquier nombre la variable base. Esta representa la estructura
-	int fuerza;
-	int mana;
-	int sabiduria;
+	int velocidad;
+	int empezar;
+	int teclaEspacio;
 } Cubito;
 
-Cubito* Cubito_crear(const char* nombre, int vida, int nivel, int fuerza, int mana, int sabiduria);
+Cubito* Cubito_crear(int posicion, int ancho, int alto, int puntaje, int velocidad, int empezar, int teclaEspacio);
 void Cubito_destruir(Cubito* this);
+
+void MoverDerecha(Cubito* this);
+void MoverArriba(Cubito* this);
+void MoverAbajo(Cubito* this);
+void CalcularPuntaje(Cubito* this);
+void DetectarInicio(Cubito* this);
 
 #endif // CUBITO_H
