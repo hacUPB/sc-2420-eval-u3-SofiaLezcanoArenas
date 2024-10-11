@@ -9,3 +9,8 @@ void detectarColision(const Detector* this)
 {
 
 }
+
+void dibujarElemento(const Detector* this)
+{
+
+}

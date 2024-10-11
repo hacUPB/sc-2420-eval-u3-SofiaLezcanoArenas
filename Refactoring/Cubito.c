@@ -10,7 +10,7 @@ int obtenerPosicion(const Entidad* this) //ojo por si toca cambiarle el nombre a
     return this->posicion;
 }
 
-int obtenerAlto(const Entidad* this)
+int obtenerAlto(const Entidad* this) //entidad o ya acá se pondría cubito? y así dependiendo del hijo
 {
     return this->alto;
 }
