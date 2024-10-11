@@ -10,7 +10,7 @@ typedef struct Entidad { //estructura que contiene atributos y métodos del perso
     int (*obtenerAlto)(const struct Entidad* this);
     int (*obtenerAncho)(const struct Entidad* this);
     int (*obtenerPuntaje)(const struct Entidad* this);
-    void (*dibujarElemento)(const struct Entidad* this); //está en duda su uso
+    void (*dibujarEntidad)(const struct Entidad* this); //está en duda su uso
 } Entidad;
 
 #endif // ENTIDAD_H

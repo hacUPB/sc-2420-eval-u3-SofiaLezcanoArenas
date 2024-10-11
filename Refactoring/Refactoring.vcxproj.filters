@@ -36,6 +36,9 @@
     <ClCompile Include="Detector.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Ventana.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cubito.h">
@@ -57,6 +60,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ventana.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

@@ -25,7 +25,7 @@ int obtenerPuntaje(const Entidad* this)
     return this->puntaje;
 }
 
-void dibujarElemento(const Entidad* this)
+void dibujarEntidad(const Entidad* this)
 {
 
 }

@@ -5,27 +5,27 @@
 #include <SDL.h>
 #include <math.h>
 
-int obtenerPosicion(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
+int obtenerPosicionCubito(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
 {
     return this->posicion;
 }
 
-int obtenerAlto(const Entidad* this) //entidad o ya acá se pondría cubito? y así dependiendo del hijo
+int obtenerAltoCubito(const Entidad* this) //entidad o ya acá se pondría cubito? y así dependiendo del hijo
 {
     return this->alto;
 }
 
-int obtenerAncho(const Entidad* this)
+int obtenerAnchoCubito(const Entidad* this) // cambiar entidad por cubito
 {
     return this->ancho;
 }
 
-int obtenerPuntaje(const Entidad* this)
+int obtenerPuntajeCubito(const Entidad* this)
 {
     return this->puntaje;
 }
 
-void dibujarElemento(const Entidad* this) //en dudaaa
+void dibujarCubito(const Entidad* this) //en dudaaa
 {
 
 }
@@ -34,8 +34,6 @@ Cubito* Cubito_crear(int posicion, int ancho, int alto, int puntaje, int velocid
 {
     Cubito* nuevo_cubito = (Cubito*)malloc(sizeof(Cubito));
     if (!nuevo_cubito) return NULL;
-    //nuevo_guerrero->base.nombre = strdup(nombre);
-    //strcpy_s(nuevo_cubito->base.nombre, 30, nombre);
     nuevo_cubito->base.posicion = posicion;
     nuevo_cubito->base.ancho = ancho;
     nuevo_cubito->base.alto = alto;
@@ -43,19 +41,19 @@ Cubito* Cubito_crear(int posicion, int ancho, int alto, int puntaje, int velocid
     nuevo_cubito->velocidad = velocidad;
     nuevo_cubito->empezar = empezar;
     nuevo_cubito->teclaEspacio = teclaEspacio;
-    nuevo_cubito->base.obtenerPosicion = obtenerPosicion;
-    nuevo_cubito->base.obtenerAlto = obtenerAlto;
-    nuevo_cubito->base.obtenerAncho = obtenerAncho;
-    nuevo_cubito->base.obtenerPuntaje = obtenerPuntaje;
-    nuevo_cubito->base.dibujarElemento = dibujarElemento;
+    nuevo_cubito->base.obtenerPosicion = obtenerPosicionCubito;
+    nuevo_cubito->base.obtenerAlto = obtenerAltoCubito;
+    nuevo_cubito->base.obtenerAncho = obtenerAnchoCubito;
+    nuevo_cubito->base.obtenerPuntaje = obtenerPuntajeCubito;
+    nuevo_cubito->base.dibujarEntidad = dibujarCubito;
     //nuevo_mago->base.atacar = atacar;
     return nuevo_cubito;
 }
 
 void Cubito_destruir(Cubito* this) 
 {
-    if (this) {
-        //free(this->base.nombre); // tengo que ponerle nombre al cubito o cómo hago para destruirlo si no es con el nombre?
+    if (this)
+    {
         free(this);
     }
 }

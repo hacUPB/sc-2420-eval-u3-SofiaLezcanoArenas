@@ -5,27 +5,27 @@
 #include <SDL.h>
 #include <math.h>
 
-int obtenerPosicion(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
+int obtenerPosicionChocolate(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
 {
     return this->posicion;
 }
 
-int obtenerAlto(const Entidad* this)
+int obtenerAltoChocolate(const Entidad* this)
 {
     return this->alto;
 }
 
-int obtenerAncho(const Entidad* this)
+int obtenerAnchoChocolate(const Entidad* this)
 {
     return this->ancho;
 }
 
-int obtenerPuntaje(const Entidad* this)
+int obtenerPuntajeChocolate(const Entidad* this)
 {
     return this->puntaje;
 }
 
-void dibujarElemento(const Entidad* this) //en dudaaa
+void dibujarChocolate(const Entidad* this) //en dudaaa
 {
 
 }
@@ -40,11 +40,11 @@ Chocolate* Chocolate_crear(int posicion, int ancho, int alto, int puntaje)
     nuevo_cubito->base.ancho = ancho;
     nuevo_cubito->base.alto = alto;
     nuevo_cubito->base.puntaje = puntaje;
-    nuevo_cubito->base.obtenerPosicion = obtenerPosicion;
-    nuevo_cubito->base.obtenerAlto = obtenerAlto;
-    nuevo_cubito->base.obtenerAncho = obtenerAncho;
-    nuevo_cubito->base.obtenerPuntaje = obtenerPuntaje;
-    nuevo_cubito->base.dibujarElemento = dibujarElemento;
+    nuevo_cubito->base.obtenerPosicion = obtenerPosicionChocolate;
+    nuevo_cubito->base.obtenerAlto = obtenerAltoChocolate;
+    nuevo_cubito->base.obtenerAncho = obtenerAnchoChocolate;
+    nuevo_cubito->base.obtenerPuntaje = obtenerPuntajeChocolate;
+    nuevo_cubito->base.dibujarEntidad = dibujarChocolate;
     //nuevo_mago->base.atacar = atacar;
     return nuevo_cubito;
 }
@@ -57,7 +57,7 @@ void Chocolate_destruir(Chocolate* this)
     }
 }
 
-void Desaparecer(Chocolate* this) //podría ser lo mismo que destruir
+void Desaparecer(Chocolate* this) //son diferentes, una cosa es visualmente (puede reaparecer al reiniciar) y otra cosa es liberar el espacio de memoria (solo sucede cuando ya ha ganado)
 {
 
 }

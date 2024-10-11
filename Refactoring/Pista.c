@@ -7,35 +7,45 @@
 #include <SDL.h>
 #include <math.h>
 
-void dibujarElemento(const Detector* this) //en dudaaa
+void dibujarPista(const Detector* this)
 {
 
 }
 
-void detectarColision(const Detector* this) //en dudaaa
+void detectarColisionPista(const Detector* this)
 {
 
 }
 
-Pista* Pista_crear(int x1, int y1, int x2, int y2)
+Pista* Pista_crear(struct linea lh1, struct linea lh2, struct linea lh3, struct linea lh4, struct linea lh5, struct linea lh6, struct linea lh7, struct linea lh8, struct linea lv1, struct linea lv2, struct linea lv3, struct linea lv4, struct linea lv5, struct linea lv6, struct linea lv7, struct linea lv8)
 {
     Pista* nueva_pista = (Pista*)malloc(sizeof(Pista));
     if (!nueva_pista) return NULL;
-    //nuevo_guerrero->base.nombre = strdup(nombre);
-    //strcpy_s(nuevo_cubito->base.nombre, 30, nombre);
-    nueva_pista->base.x1 = x1;
-    nueva_pista->base.y1 = y1;
-    nueva_pista->base.x2 = x2;
-    nueva_pista->base.y2 = y2;
-    nueva_pista->base.detectarColision = detectarColision;
-    nueva_pista->base.dibujarElemento = dibujarElemento;
+    nueva_pista->lh1 = lh1;
+    nueva_pista->lh2 = lh2;
+    nueva_pista->lh3 = lh3;
+    nueva_pista->lh4 = lh4;
+    nueva_pista->lh5 = lh5;
+    nueva_pista->lh6 = lh6;
+    nueva_pista->lh7 = lh7;
+    nueva_pista->lh8 = lh8;
+    nueva_pista->lv1 = lv1;
+    nueva_pista->lv2 = lv2;
+    nueva_pista->lv3 = lv3;
+    nueva_pista->lv4 = lv4;
+    nueva_pista->lv5 = lv5;
+    nueva_pista->lv6 = lv6;
+    nueva_pista->lv7 = lv7;
+    nueva_pista->lv8 = lv8;
+    nueva_pista->base.detectarColision = detectarColisionPista;
+    nueva_pista->base.dibujarElemento = dibujarPista;
     return nueva_pista;
 }
 
 void Pista_destruir(Pista* this)
 {
-    if (this) {
-        //free(this->base.nombre); // tengo que ponerle nombre al cubito o cómo hago para destruirlo si no es con el nombre?
-        free(this);
+    if (this)
+    {
+        free(this); //como no se tienen más variables de tipo dinámico (malloc), entonces con esta linea es suficiente para liberar la memoria
     }
 }
