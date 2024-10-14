@@ -22,5 +22,8 @@ Los únicos elementos que tienen una relación de composición serían la meta y
 Hay algunas clases que no poseen atributos, además, en este momento ningún método recibe parámetros, cosa que creo que deberé modificar luego pero que no alcanzo a dimensionar sin haber empezado con el código.
 
 ## Descripción versión final diagrama de clases UML
+En el proceso de crear el código para cada clase, fui cayendo en cuenta de errores y cosas que no contemplé en la primera versión del diagrama de clases. Por ejemplo, me di cuenta que podía crear las variables necesarias para crear una línea en la estructura de la clase Detector, padre de Pista y Meta, pues aunque en algún momento pensé que podría crear una única instancia para la pista, descubrí que se estaba volviendo demasiado complejo. También vi que no había considerado la posición como dos valores independientes que son x y y.
+
+Aunque no alcancé a establecer las relaciones de composición y agregación, considero que es correcto dejarlas de esta manera.
 ![clasesFinal]()
 
