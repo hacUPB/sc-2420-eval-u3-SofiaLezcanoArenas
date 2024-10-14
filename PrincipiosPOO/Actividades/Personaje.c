@@ -8,7 +8,7 @@ static void mostrar_estado_impl(const Personaje* this) {
 }
 
  void atacar(const Personaje* this) {
-    printf("El personaje está atacando");
+    printf("El personaje está atacando\n");
 }
 
 Personaje* Personaje_crear(const char* nombre, int vida, int nivel) { // es una función que recibe tres parámetros (atributos) //crea un punterp

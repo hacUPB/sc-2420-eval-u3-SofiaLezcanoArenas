@@ -10,7 +10,7 @@ Equipo* Equipo_crear() {
     return equipo;
 }
 
-void Equipo_agregar_arma(Equipo* this, Personaje* personaje) {
+void Equipo_agregar_personaje(Equipo* this, Personaje* personaje) {
     this->personajes = realloc(this->personajes, sizeof(Personaje*) * (this->cantidad_personajes + 1));
     this->personajes[this->cantidad_personajes++] = personaje;
 }

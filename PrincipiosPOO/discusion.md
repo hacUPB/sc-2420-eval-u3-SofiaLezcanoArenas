@@ -1,5 +1,3 @@
-# Ejercicios no funcionales
-- Polimorfismo: no pude implementar correctamente en la sintaxis de C este concepto.
 # Preguntas y discusión
 1. **¿Por qué, en este apartado, se afirma que la POO no es un lenguaje de programación? ¿Estás de acuerdo con esta apreciación?**
    **Respuesta:** aquí se afirma que POO es una manera de estructurar el código y el pensamiento, dado que es aplicable a cualquier lenguaje de programación. Estoy de acuerdo con esto.

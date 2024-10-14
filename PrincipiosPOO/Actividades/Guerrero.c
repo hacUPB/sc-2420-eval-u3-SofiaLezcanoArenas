@@ -1,4 +1,4 @@
-#include "Guerrero.h"
+#include "guerrero.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,10 +8,10 @@ static void mostrar_estado_impl(const Personaje* this) {
     printf("Guerrero: %s | Vida: %d | Nivel: %d | Fuerza: %d\\n", this->nombre, this->vida, this->nivel, guerrero->fuerza);
 }
 
-//static void atacar(const Personaje* this) {
-//    Guerrero* guerrero = (Guerrero*)this;
-//    printf("El guerrero está lanzando un ataque");
-//}
+void atacar_guerrero(const Personaje* this) {
+    Guerrero* guerrero = (Guerrero*)this;
+    printf("El guerrero esta lanzando un ataque\n");
+}
 
 Guerrero* Guerrero_crear(const char* nombre, int vida, int nivel, int fuerza) {
     Guerrero* nuevo_guerrero = (Guerrero*)malloc(sizeof(Guerrero));

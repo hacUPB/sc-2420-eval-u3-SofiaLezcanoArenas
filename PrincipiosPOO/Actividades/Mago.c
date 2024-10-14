@@ -10,7 +10,7 @@ static void mostrar_estado_impl(const Personaje* this) {
 
  void atacar_mago(const Personaje* this) { //tienen que tener nombres diferentes para cada versión de ataque
     Mago* mago = (Mago*)this;
-    printf("El mago está lanzando un hechizo");
+    printf("El mago está lanzando un hechizo\n");
 }
 //char[30] get_ataque(void) {
 //    mostrar_estado_impl(const Personaje* this);

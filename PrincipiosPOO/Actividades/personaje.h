@@ -1,6 +1,8 @@
 #ifndef PERSONAJE_H
 #define PERSONAJE_H
 
+#include "arma.h"
+
 typedef struct Personaje { //estructura que contiene atributos y métodos del personaje
     char nombre[30]; //arreglo de caracteres en vez de un puntero
     int vida;
