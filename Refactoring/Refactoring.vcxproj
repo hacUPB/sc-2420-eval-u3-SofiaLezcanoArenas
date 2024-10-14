@@ -140,7 +140,6 @@
     <ClCompile Include="Game.c" />
     <ClCompile Include="Meta.c" />
     <ClCompile Include="Pista.c" />
-    <ClCompile Include="Ventana.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chocolate.h" />
@@ -150,7 +149,6 @@
     <ClInclude Include="game.h" />
     <ClInclude Include="meta.h" />
     <ClInclude Include="pista.h" />
-    <ClInclude Include="ventana.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

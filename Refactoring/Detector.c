@@ -5,12 +5,6 @@
 #include <SDL.h>
 #include <math.h>
 
-void detectarColision(const Detector* this)
-{
+void detectarColision(const Detector* this){ }
 
-}
-
-void dibujarElemento(const Detector* this)
-{
-
-}
+void dibujarElemento(const Detector* this){ }

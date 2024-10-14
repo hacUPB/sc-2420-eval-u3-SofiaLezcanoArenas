@@ -17,6 +17,11 @@ void detectarMeta(const Detector* this)
 
 }
 
+void detenerCubito(const Detector* this)
+{
+
+}
+
 Meta* Meta_crear(int x1, int y1, int x2, int y2)
 {
     Meta* nueva_meta = (Meta*)malloc(sizeof(Meta));

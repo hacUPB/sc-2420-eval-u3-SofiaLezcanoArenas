@@ -5,9 +5,14 @@
 #include <SDL.h>
 #include <math.h>
 
-int obtenerPosicionChocolate(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
+int obtenerXChocolate(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
 {
-    return this->posicion;
+    return this->x;
+}
+
+int obtenerYChocolate(const Entidad* this) //ojo por si toca cambiarle el nombre a estas funciones por polimorfismo
+{
+    return this->y;
 }
 
 int obtenerAltoChocolate(const Entidad* this)
@@ -30,17 +35,19 @@ void dibujarChocolate(const Entidad* this) //en dudaaa
 
 }
 
-Chocolate* Chocolate_crear(int posicion, int ancho, int alto, int puntaje)
+Chocolate* Chocolate_crear(int x, int y, int ancho, int alto, int puntaje)
 {
     Chocolate* nuevo_cubito = (Chocolate*)malloc(sizeof(Chocolate));
     if (!nuevo_cubito) return NULL;
     //nuevo_guerrero->base.nombre = strdup(nombre);
     //strcpy_s(nuevo_cubito->base.nombre, 30, nombre);
-    nuevo_cubito->base.posicion = posicion;
+    nuevo_cubito->base.x = x;
+    nuevo_cubito->base.y = y;
     nuevo_cubito->base.ancho = ancho;
     nuevo_cubito->base.alto = alto;
     nuevo_cubito->base.puntaje = puntaje;
-    nuevo_cubito->base.obtenerPosicion = obtenerPosicionChocolate;
+    nuevo_cubito->base.obtenerX = obtenerXChocolate;
+    nuevo_cubito->base.obtenerY = obtenerYChocolate;
     nuevo_cubito->base.obtenerAlto = obtenerAltoChocolate;
     nuevo_cubito->base.obtenerAncho = obtenerAnchoChocolate;
     nuevo_cubito->base.obtenerPuntaje = obtenerPuntajeChocolate;

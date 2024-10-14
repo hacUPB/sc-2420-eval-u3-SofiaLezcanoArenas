@@ -5,9 +5,14 @@
 #include <SDL.h>
 #include <math.h>
 
-int obtenerPosicion(const Entidad* this)
+int obtenerX(const Entidad* this)
 {
-    return this->posicion;
+    return this->x;
+}
+
+int obtenerY(const Entidad* this)
+{
+    return this->y;
 }
 
 int obtenerAlto(const Entidad* this)

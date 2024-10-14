@@ -8,7 +8,7 @@ typedef struct Chocolate {
 	
 } Chocolate;
 
-Chocolate* Chocolate_crear(int posicion, int ancho, int alto, int puntaje, int velocidad, int empezar, int teclaEspacio);
+Chocolate* Chocolate_crear(int x, int y, int ancho, int alto, int puntaje, int velocidad, int empezar, int teclaEspacio);
 void Chocolate_destruir(Chocolate* this);
 
 void Desaparecer(Chocolate* this);
