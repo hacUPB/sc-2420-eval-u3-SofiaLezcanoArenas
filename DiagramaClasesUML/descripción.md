@@ -25,5 +25,5 @@ Hay algunas clases que no poseen atributos, además, en este momento ningún mé
 En el proceso de crear el código para cada clase, fui cayendo en cuenta de errores y cosas que no contemplé en la primera versión del diagrama de clases. Por ejemplo, me di cuenta que podía crear las variables necesarias para crear una línea en la estructura de la clase Detector, padre de Pista y Meta, pues aunque en algún momento pensé que podría crear una única instancia para la pista, descubrí que se estaba volviendo demasiado complejo. También vi que no había considerado la posición como dos valores independientes que son x y y.
 
 Aunque no alcancé a establecer las relaciones de composición y agregación, considero que es correcto dejarlas de esta manera.
-![clasesFinal]()
 
+![clasesFinal](https://github.com/hacUPB/sc-2420-eval-u3-SofiaLezcanoArenas/blob/main/DiagramaClasesUML/pista%20clases.png)
